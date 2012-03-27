@@ -3,6 +3,7 @@ import sys
 import os
 import base64
 import zlib
+# xmlrpclib -> xmlrpc.client in Python 3.0+
 from xmlrpc.client import ServerProxy, Error
 
 class SubtitleDownload:
